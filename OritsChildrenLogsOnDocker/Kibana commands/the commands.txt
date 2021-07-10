@@ -1,0 +1,23 @@
+GET /_cat/indices
+DELETE orits_children
+GET orits_children/_search
+{
+  "size": 10000, 
+  "query": {
+    "match_all": {}
+  }
+}
+GET orits_children/_search
+{
+  "size": 10000, 
+  "query": {
+    "match_all": {
+    }
+  },
+  "fields": [
+    {
+      "field": "message"
+    }
+  ],
+  "_source": false
+}
