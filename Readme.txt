@@ -1,3 +1,4 @@
+
 # Python-Logger_Docker_ELK
 
 This project is a python written code that produces logs to be collected by Logstash into Elasticsearch, coupled by a Kibana command to present them neatly.
