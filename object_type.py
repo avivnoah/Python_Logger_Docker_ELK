@@ -13,9 +13,9 @@ import os
 import datetime
 
 #Constants
-#Defines if the children are destined to be logged in elasticsearch
+#Defines if the object_type are destined to be logged in elasticsearch
 CHECK_ELASTIC_LOGGED = True
-#Defines if the children are destined to be logged in a .log file
+#Defines if the object_type are destined to be logged in a .log file
 CHECK_FILE_LOGGED = True
 #Defines Whether Orit is pregnant or not
 CHECK_ORIT_IS_PREGNANT = False

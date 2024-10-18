@@ -1,3 +1,3 @@
 cd ..
-cd OritsChildren*
+cd ObjectType*
 docker-compose up
